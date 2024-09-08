@@ -1,0 +1,51 @@
+###
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+    "name":"Smart watch",
+    "price":"199.99",
+    "image":"example.com/image"
+}
+
+###
+DELETE http://localhost:5000/api/products/66dd26f0d56769b3f3f95c50
+
+###
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+    "name":"Smart watch",
+    "price":"199.99",
+    "image":"example.com/image"
+}
+
+###
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+    "name":"Smart watch3",
+    "price":"399.99",
+    "image":"example.com/image"
+}
+
+###
+GET http://localhost:5000/api/products
+
+###
+PUT http://localhost:5000/api/products/66dd28d65459f614c373f181
+Content-Type: application/json
+
+{
+    "name":"Smart watch x"
+}
+
+###
+PUT http://localhost:5000/api/products/66dd2f9b33b6cb7b6dc50f70
+Content-Type: application/json
+
+{
+    "name":"Smart watch y"
+}
